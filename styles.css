@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background: url('https://source.unsplash.com/random/1600x900?landscape') no-repeat center center fixed;
+            background-size: cover;
+        }
+        ul {
+            list-style: none;
+            padding: 20px;
+            margin: 50px auto;
+            background: rgba(255, 255, 255, 0.8);
+            width: 50%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        li {
+            font-size: 1.2em;
+            margin: 10px 0;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
